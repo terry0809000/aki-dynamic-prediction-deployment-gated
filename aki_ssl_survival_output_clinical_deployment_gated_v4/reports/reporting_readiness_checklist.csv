@@ -1,0 +1,8 @@
+domain,item,status,artifact
+participants_data_sources,Cohort eligibility and exclusions audited,partial,metrics/clinical_audit/*_clinical_phenotype_audit.json
+predictors,Predictor timing precedes landmark and action gap,partial,landmarks/*_landmarks.parquet
+outcome,KDIGO phenotype and competing events explicitly defined,partial,reports/clinical_model_card.md
+analysis,Internal/external metrics include calibration and clustered uncertainty,partial,metrics/*_metrics.csv
+analysis,Threshold operating characteristics written for clinical review,partial,metrics/*_threshold_metrics.csv
+applicability,Subgroup performance reviewed across available clinical strata,partial,metrics/*_subgroup_metrics.csv
+governance,"Prospective validation, workflow impact, and harm monitoring completed",not_done,external_to_notebook

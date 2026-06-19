@@ -1,0 +1,14 @@
+numpy
+pandas
+pyarrow
+scikit-learn
+scipy
+matplotlib
+tqdm
+torch
+xgboost
+shap
+nbformat
+python-docx
+lxml
+Pillow

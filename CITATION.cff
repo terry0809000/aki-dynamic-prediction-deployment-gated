@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Deployment-gated severe AKI dynamic prediction in critical care"
+message: "If you use this repository, please cite the manuscript or repository."
+type: software
+authors:
+  - family-names: Yu
+    given-names: Terry
+repository-code: "https://github.com/terry0809000/aki-dynamic-prediction-deployment-gated"
+abstract: "Rerunnable deployment-gated retrospective workflow for severe acute kidney injury/RRT prediction using MIMIC-IV and eICU, with calibration, transportability, bias, threshold, and clinical deployment-gate reporting."
+keywords:
+  - acute kidney injury
+  - critical care
+  - clinical prediction model
+  - machine learning
+  - transportability
+  - calibration
+  - deployment gate
+license: "NOASSERTION"

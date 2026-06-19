@@ -1,0 +1,83 @@
+﻿{
+  "pipeline_version": "2026-06-19-d-drive-publication-gated-v4",
+  "experiment": "reports_only",
+  "status": "BLOCKED_NOT_CLINICALLY_DEPLOYABLE",
+  "blockers": [
+    "Incomplete required deployment evidence: prospective_shadow_validation_metrics (CSV has no completed evidence rows); locked_thresholds (CSV has no completed evidence rows); intended_use_and_workflow (draft document requires local completion and approval); clinical_governance_approval (draft document requires local completion and approval); regulatory_assessment (draft document requires local completion and approval); monitoring_and_drift_plan (draft document requires local completion and approval); incident_response_plan (draft document requires local completion and approval); human_factors_signoff (draft document requires local completion and approval)",
+    "No completed local prospective shadow-mode validation metrics were provided."
+  ],
+  "warnings": [],
+  "required_evidence_files": {
+    "prospective_shadow_validation_metrics": "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\prospective_shadow_validation_metrics.csv",
+    "locked_thresholds": "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\locked_thresholds.csv",
+    "intended_use_and_workflow": "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\intended_use_and_workflow.md",
+    "clinical_governance_approval": "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\clinical_governance_approval.md",
+    "regulatory_assessment": "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\regulatory_assessment.md",
+    "monitoring_and_drift_plan": "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\monitoring_and_drift_plan.md",
+    "incident_response_plan": "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\incident_response_plan.md",
+    "human_factors_signoff": "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\human_factors_signoff.md"
+  },
+  "evidence_completion": {
+    "prospective_shadow_validation_metrics": {
+      "complete": false,
+      "reason": "CSV has no completed evidence rows"
+    },
+    "locked_thresholds": {
+      "complete": false,
+      "reason": "CSV has no completed evidence rows"
+    },
+    "intended_use_and_workflow": {
+      "complete": false,
+      "reason": "draft document requires local completion and approval"
+    },
+    "clinical_governance_approval": {
+      "complete": false,
+      "reason": "draft document requires local completion and approval"
+    },
+    "regulatory_assessment": {
+      "complete": false,
+      "reason": "draft document requires local completion and approval"
+    },
+    "monitoring_and_drift_plan": {
+      "complete": false,
+      "reason": "draft document requires local completion and approval"
+    },
+    "incident_response_plan": {
+      "complete": false,
+      "reason": "draft document requires local completion and approval"
+    },
+    "human_factors_signoff": {
+      "complete": false,
+      "reason": "draft document requires local completion and approval"
+    }
+  },
+  "retrospective_external_metric_files": [
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_hgb_eicu_to_mimic_conservative_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_hgb_eicu_to_mimic_full_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_hgb_eicu_to_mimic_no_measurement_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_hgb_eicu_to_mimic_no_treatment_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_hgb_mimic_to_eicu_conservative_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_hgb_mimic_to_eicu_full_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_hgb_mimic_to_eicu_no_measurement_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_hgb_mimic_to_eicu_no_treatment_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_xgb_eicu_to_mimic_conservative_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_xgb_eicu_to_mimic_full_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_xgb_eicu_to_mimic_no_treatment_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_xgb_mimic_to_eicu_conservative_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_xgb_mimic_to_eicu_full_external_metrics.csv",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\metrics\\cpu_xgb_mimic_to_eicu_no_treatment_external_metrics.csv"
+  ],
+  "supporting_deployment_documents": [
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\clinical_governance_approval.md",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\deployment_evidence_packet_index.md",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\human_factors_signoff.md",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\incident_response_plan.md",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\intended_use_and_workflow.md",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\local_data_mapping_specification.md",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\monitoring_and_drift_plan.md",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\prospective_shadow_validation_protocol.md",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\regulatory_assessment.md",
+    "aki_ssl_survival_output_clinical_deployment_gated_v4\\reports\\deployment_evidence\\threshold_locking_protocol.md"
+  ],
+  "regulatory_note": "This report is not legal advice. FDA CDS/SaMD and ONC HTI-1 applicability require institutional review."
+}

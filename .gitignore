@@ -1,0 +1,65 @@
+# Python and notebook noise
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Raw credentialed clinical databases and local data dumps
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.csv.gz
+*.parquet
+*.feather
+*.duckdb
+*.sqlite
+*.sqlite3
+
+# Heavy derived outputs and model artifacts
+aki_ssl_survival_work/
+aki_ssl_survival_output_clinical_deployment_gated_v4/config.json
+aki_ssl_survival_output_clinical_deployment_gated_v4/environment_manifest.json
+aki_ssl_survival_output_clinical_deployment_gated_v4/variables.json
+aki_ssl_survival_output_clinical_deployment_gated_v4/cache/
+aki_ssl_survival_output_clinical_deployment_gated_v4/cohort/
+aki_ssl_survival_output_clinical_deployment_gated_v4/events/
+aki_ssl_survival_output_clinical_deployment_gated_v4/features/
+aki_ssl_survival_output_clinical_deployment_gated_v4/grids/
+aki_ssl_survival_output_clinical_deployment_gated_v4/landmarks/
+aki_ssl_survival_output_clinical_deployment_gated_v4/models/
+aki_ssl_survival_output_clinical_deployment_gated_v4/metrics/
+aki_ssl_survival_output_clinical_deployment_gated_v4/predictions/
+aki_ssl_survival_output_clinical_deployment_gated_v4/psm/
+
+# Keep only polished publication figures, not every diagnostic panel
+aki_ssl_survival_output_clinical_deployment_gated_v4/figures/*
+!aki_ssl_survival_output_clinical_deployment_gated_v4/figures/publication/
+!aki_ssl_survival_output_clinical_deployment_gated_v4/figures/publication/**
+
+# Runtime logs and interrupted-run breadcrumbs
+*.log
+aki_v4_execution_progress.json
+
+# Local submission packaging copies and render QA
+2026-06-19_submission_package_v2/
+aki_publication_submission_package_v2.zip
+docx_render_qa/
+zip_check_tmp/
+
+# Superseded notebook/manuscript backups
+*.pre_*.ipynb
+*.pre_*.md
+aki_ssl_survival_sectioned_workflow_clinical_deployment_gated_v3.ipynb
+aki_ssl_survival_sectioned_workflow_strict_healthcare_adjusted.ipynb
+aki_ssl_survival_sectioned_workflow_strict_healthcare_adjusted_v2.ipynb
+
+# Office temporary files
+~$*
