@@ -112,3 +112,24 @@ The draft evidence packet is under `aki_ssl_survival_output_clinical_deployment_
 This repository excludes raw data, caches, feature parquet files, generated model binaries, predictions, logs, and credentialed database archives.
 
 No clinical decision should be made from this repository without local prospective validation and governance approval.
+
+## Public Repository Release Layer
+
+This repository has been prepared as a public, citable research-software
+package rather than a notebook-only upload.
+
+Key public-release files:
+
+- `docs/CLINICAL_ALGORITHMICIAN_ANNOTATION.md`
+- `docs/DEPLOYMENT_READINESS.md`
+- `DATA_ACCESS.md`
+- `.zenodo.json`
+- `scripts/validate_repository.py`
+- `.github/workflows/repository-publication.yml`
+- `Dockerfile`
+
+Validate the release package with:
+
+```bash
+python scripts/validate_repository.py
+```

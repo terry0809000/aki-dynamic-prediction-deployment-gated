@@ -1,19 +1,20 @@
-# Data access
+# Data Access
 
-This repository does not include raw MIMIC-IV or eICU data.
+Raw MIMIC-IV and eICU archives, caches, feature parquet files, generated models, predictions, logs, and credentialed extracts are excluded.
 
-The workflow expects credentialed local archives:
+## Repository Boundary
 
-- `mimic-iv-3.1.zip`
-- `eicu-collaborative-research-database-2.0.zip`
+Public GitHub and Zenodo releases should include source code, notebooks,
+aggregate tables, aggregate figures, documentation, manifests, and validation
+metadata. They should not include raw restricted data, patient-level derived
+extracts, private credentials, local caches, model binaries, or large
+regenerated work directories.
 
-The notebook searches `D:\` first on Windows and also supports environment overrides:
+## Reproducibility Pattern
 
-```powershell
-$env:AKI_MIMIC_ZIP = "D:\mimic-iv-3.1.zip"
-$env:AKI_EICU_ZIP = "D:\eicu-collaborative-research-database-2.0.zip"
-```
-
-Do not commit credentialed data, extracted CSVs, parquet feature tables, patient-level prediction files, or derived caches.
-
-The included reports and figures are aggregate retrospective research artifacts. They do not make the model clinically deployable.
+1. Obtain the required datasets from their official providers.
+2. Keep source archives and extracted row-level data outside this repository.
+3. Configure local paths with environment variables or documented runtime
+   settings.
+4. Run the workflow entry point listed in `docs/DEPLOYMENT_READINESS.md`.
+5. Commit only aggregate, de-identified, redistributable artifacts.

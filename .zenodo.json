@@ -1,0 +1,28 @@
+{
+  "title": "Deployment-gated severe AKI dynamic prediction workflow",
+  "upload_type": "software",
+  "description": "retrospective deployment-gated model selection, calibration review, and prospective-shadow-validation planning",
+  "creators": [
+    {
+      "name": "Yu, Terry"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "acute kidney injury",
+    "dynamic prediction",
+    "deployment gate",
+    "calibration",
+    "MIMIC-IV",
+    "eICU"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/terry0809000/aki-dynamic-prediction-deployment-gated",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "communities": []
+}
