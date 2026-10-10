@@ -63,3 +63,14 @@ aki_ssl_survival_sectioned_workflow_strict_healthcare_adjusted_v2.ipynb
 
 # Office temporary files
 ~$*
+
+# Analysis-only GitHub repository; editorial artifacts stay local.
+manuscript/
+submission/package/
+submission_ready_latex/
+*.docx
+*.doc
+*manuscript*.pdf
+*manuscript*.tex
+*manuscript*.md
+*cover_letter*

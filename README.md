@@ -40,14 +40,8 @@ SHAP and PSM outputs, if generated, are exploratory diagnostics only. They must 
 - `run_aki_v4_notebook.py`  
   Plain-Python runner for executing the notebook cells outside Jupyter.
 
-- `build_publication_submission_package.py`  
-  Generates the DOCX manuscript and submission-support documents from the verified Markdown/results.
 
-- `manuscript_aki_dynamic_prediction_deployment_gated.md`  
-  Publication manuscript source with 59 references.
 
-- `manuscript_aki_dynamic_prediction_deployment_gated_submission.docx`  
-  Word manuscript generated from the verified source.
 
 - `aki_ssl_survival_output_clinical_deployment_gated_v4/reports/`  
   Model-selection report, deployment-gate report, clinical model card, and transportability audit.
@@ -133,3 +127,7 @@ Validate the release package with:
 ```bash
 python scripts/validate_repository.py
 ```
+
+## Software-only repository
+
+The current branch contains research software, permitted evidence and reproduction documentation. Manuscripts and editorial bundles were removed from the current tree on 10 October 2026; historical commits remain recoverable. This cleanup does not constitute a fresh empirical rerun or change the scientific results. Dataset access restrictions and deployment limits still apply.
