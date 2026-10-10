@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/project-cover.png" width="100%" alt="Conceptual scientific artwork for Dynamic AKI prediction" /></p>
+
 # Deployment-gated severe AKI dynamic prediction
 
 This repository contains a rerunnable clinical-ML research workflow for dynamic prediction of severe acute kidney injury (AKI) or renal replacement therapy (RRT) in adult ICU patients using MIMIC-IV and eICU.
